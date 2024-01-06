@@ -1,0 +1,100 @@
+<!doctype html>
+<head>
+    <title>Electrical Permit Step 1</title>
+    <link rel="stylesheet" href="css/electricalPermit1.css">
+</head>
+<body style = "background-color: black;">
+    <div class = "side-bar">
+        <div class = "top-bar">
+            <img class="Logo"src="Logo.png" alt="meow meow meow" style="border-radius: 50%;">
+        </div>
+        <div class="sidebar-button-container">
+            <div class="newform-button-container">
+                <button class="new-form-button">New Form</button>
+            </div>
+            <div class="electrical-button-container">
+                <button class="new-form-button">Electrical Permit</button>
+                <div class="electrical-button-container1">1</div>
+                <div class="electrical-button-container2">2</div>
+            </div>
+        </div>
+    </div>
+        <!--Body starts here -->
+        
+        <div class="main-container">
+            <div class="contact-details">
+                <div class="client-details-header">Client Details</div>
+
+                    <div style="display: inline-block;">Applicant Name: <input id="input" class="applicant-name" type="text" ></div>
+                    <div style="display: inline-block; margin-left: 142px;" >Tin No. <input id="input" class ="tin-no" type="text"></div>
+ 
+                    <div>
+                        <div style="display: inline-block; margin-right: 550px;">Address</div> 
+                        <div style="display: inline-block;">Contact No. <input id="input" class="contact-no" type="text"></div>
+                    </div>
+                <div>City/Municipality:<input id="input" class="client-city" type="text"></div>
+                <div>Barangay:<input id="input" class="client-barangay" type="text"></div>
+                <div>Street:<input id="input" class="client-street"type="text"></div>
+                <div>No.:<input id="input" class = "client-no" type="text"></div>
+            </div>
+            <div class="application-details">
+                <div class="application-header">Application</div>
+                <div>Date Issued:<input id="input" class="date-issued" type="text"></div>
+                <div>Application No.<input id="input" class="app-no" type="text"></div>
+                <div>Permit No.<input id="input"class="permit-no" type="text"></div>
+                <div>Paid Under O.R No.<input id="input"class="or-no" type="text"></div>
+                <div>Amount<input id="input" class="amount"type="text"></div>
+                <div>Date Filed<input id="input"class="date-filed" type="text"></div>
+            </div>
+            
+            <div class="separator"></div>
+
+            <div class="location-details">
+                <div class="location-header">Location of installation</div>
+                <div>City/Municipality:<input id="input" class="location-city" type="text"></div>
+                <div>Barangay:<input id="input" class="location-barangay" type="text"></div>
+                <div>Street:<input id="input" class="location-street"type="text"></div>
+                <div>No.:<input id="input" class = "location-no" type="text"></div>
+
+            </div>
+            <div class="rules-details">
+                <div class="rules-container">
+                    <p>Permit is hereby granted to install the electrical wiring, devices and equipment enumerated
+                        In the application subject to the following conditions</p>
+                        <ul>
+                            <li>•That the proposed installation be in accordance with the approved plans filed with </li>
+                            <li>•This office and in conformity with the provisions of the latest edition of the philippinesElectrical code. </li>
+                            <li>•That a duly licensed electrical practitioner be in charge of the installation / construction.</li>
+                            <li>•That a certificate of completion duly signed by the electrical practitioner incharge of the 
+                                Installation be submitted not later than seven (7) days after the completion of the installation.</li>
+                            <li>That a certificate of the final electrical inspection be secured prior to the actual occupancy of the building.</li>
+                            <li>This permit shall be posted at the door or site work. </li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="fee-container">
+                <div class="fee-header">Assessed Fees</div>
+                <div class="entities">
+                    <span style="margin-left: 65px;">Amount</span>
+                    <span style="margin-left: 110px;">Assesed by</span>
+                    <span style="margin-left: 95px;">O.R. Number</span>
+                    <span style="margin-left: 95px;">Date Paid</span>
+                </div>
+                <div class="tables">
+                    <span><input class="amountPaid" type="text"></span>
+                    <span><input class="assessedBy"type="text"></span>
+                    <span><input class="orNumber" type="text"></span>
+                    <span><input clas="datePaid"type="text"></span>
+                </div>
+                <button style="margin-top: 10px;">+</button>
+            </div>
+        </div>
+
+
+
+        <button style="color:white; margin-left: 1100px; margin-top: 50px; background-color: blue;">NEXT</button>
+
+</body>
