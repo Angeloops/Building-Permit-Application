@@ -1,0 +1,257 @@
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #14066B;
+    padding: 20px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.Logo{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.side-bar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 120px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #14066B; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+.newform-button-container{
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-top: 250px;
+}
+.new-form-button{
+    height: 50px;
+    width: 90px;
+    position: fixed;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+}
+.electrical-button-container{
+    background-color: #D3D3D3;
+    height: 75px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.electrical-button-container1{
+    padding-left: 5px;
+    margin-top: 53px;
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}.electrical-button-container2{
+    padding-left: 5px;
+    margin-top: 53px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+#input{
+    border-radius: 10cap;
+}
+.main-container{
+    color: white;
+    margin-top: 110px;
+    margin-left: 130px;
+}
+.contact-details{
+    display: inline-block;
+}
+.client-details-header{
+    font-size: 20px;
+    background-color: gray;
+    padding-left: 400px;
+    border-radius: 10cap;
+    width: 500px;
+}
+.application-details{
+    display: inline-block;
+}
+.application-header{
+    font-size: 20px;
+    background-color: gray;
+    padding-left: 150px;
+    border-radius: 10cap;
+    width: 250px;
+}
+.applicant-name{
+    width: 300px;
+    margin-left: 40px;
+}
+.client-city{
+    width: 300px;
+    margin-left: 34px;
+}
+.client-barangay{
+    width: 300px;
+    margin-left: 88px;
+}
+.client-street{
+    width: 300px;
+    margin-left: 112px;
+}
+.client-no{
+    width: 300px;
+    margin-left: 126px;
+}
+.tin-no{
+    margin-left: 27px;
+    width: 150px;
+}
+.contact-no{
+    width: 150px;
+}
+.date-issued{
+    margin-left: 60px;
+    width: 252px;
+}
+.app-no{
+    margin-left: 37px;
+    width: 252px;
+}
+.permit-no{
+    margin-left: 70px;
+    width: 252px;
+}
+.or-no{
+    margin-left: 10px;
+    width: 252px;
+}
+.amount{
+    margin-left: 87px;
+    width: 252px;
+}
+.date-filed{
+    margin-left: 73px;
+    width: 252px;
+}
+.separator{
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1px;
+}
+.details-header{
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 10cap;
+    padding-left: 45%;
+    width:53%;
+    margin-bottom: 5px;
+}
+.scope-of-work{
+    display: inline-block;
+    font-size: 20px;
+    background-color: gray;
+    padding-left: 250px;
+    border-radius: 1cap;
+    width: 400px;
+}
+.occupancy-type{
+    display: inline-block;
+    font-size: 20px;
+    background-color: gray;
+    padding-left: 260px;
+    border-radius: 1cap;
+    width: 390px;
+}
+.dropdown{
+    color: black;
+    background-color: white;
+    width: 150px;
+    border-radius: 3cap;
+    padding-left: 10px;
+}
+.electrician-container{
+    display: inline-block;
+}
+.electrician-header{
+    font-size: 20px;
+    background-color: gray;
+    padding-left: 220px;
+    border-radius: 1cap;
+    width: 430px;
+}
+.person-incharge-container{
+    display: inline-block;
+}
+.incharge-header{
+    font-size: 20px;
+    background-color: gray;
+    padding-left: 220px;
+    border-radius: 1cap;
+    width: 430px;
+}
+.electrician-name{
+    width: 200px;
+    margin-left: 25px;
+}
+.electrician-address{
+    width: 200px;
+    margin-left: 73px;
+}
+.electrician-PRC{
+    width: 200px;
+    margin-left: 38px;
+}
+.electrician-PTR{
+    width: 200px;
+    margin-left: 36px;
+}
+.electrician-contact{
+    width: 200px;
+    margin-left: 15px;
+}
+.electrician-Tin{
+    width: 200px;
+    margin-left: 70px;
+}
+
+.incharge-name{
+    width: 200px;
+    margin-left: 25px;
+}
+.incharge-address{
+    width: 200px;
+    margin-left: 73px;
+}
+.incharge-PRC{
+    width: 200px;
+    margin-left: 38px;
+}
+.incharge-PTR{
+    width: 200px;
+    margin-left: 36px;
+}
+.incharge-contact{
+    width: 200px;
+    margin-left: 15px;
+}
+.incharge-Tin{
+    width: 200px;
+    margin-left: 70px;
+}
